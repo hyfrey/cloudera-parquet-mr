@@ -33,6 +33,7 @@
   <url>https://parquet.apache.org</url>
 
   <properties>
+    <zstd-jni.version>1.5.5-3</zstd-jni.version>
   </properties>
 
   <dependencies>
@@ -91,6 +92,11 @@
       <artifactId>mockito-all</artifactId>
       <version>1.9.5</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.luben</groupId>
+      <artifactId>zstd-jni</artifactId>
+      <version>${zstd-jni.version}</version>
     </dependency>
   </dependencies>
 
