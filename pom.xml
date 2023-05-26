@@ -128,7 +128,9 @@
   </pluginRepositories>
 
   <properties>
-    <javaVersion>1.7</javaVersion>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <javaVersion>1.11</javaVersion>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -269,7 +271,7 @@
           <configuration>
             <rules>
               <requireJavaVersion>
-                <version>[${javaVersion}.0,${javaVersion}.1000}]</version>
+                <version>[0,1000]</version>
               </requireJavaVersion>
             </rules>
           </configuration>
